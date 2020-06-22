@@ -1,4 +1,4 @@
-package com.omelhordochile;
+package com.finchFood;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("dev")
-public class PessoaServiceApplicationTests {
+public class FinchFoodApplicationTests {
 	
 	@Value("${paginacao.quantidade_por_pagina}")
 	private int qdtPorPagina;
