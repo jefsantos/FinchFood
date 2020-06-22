@@ -1,0 +1,15 @@
+comando para escolher perfil do propertis:
+
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
+
+//	JSON do cadastro empresa:
+//		
+//	{
+//		"nome": "VVale",
+//		"modeloCarro":"Vans",
+//		"quantidadeTotal":7,
+//		"quantidadeLivre":5,
+//		"vaga":"livre"
+//		
+//		
+//	}
